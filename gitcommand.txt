@@ -1,0 +1,1505 @@
+    git read-tree df8f
+    pwd
+    cd ..
+    cd ..
+    pwd
+    git read-tree df8f
+    git read-tree df8f
+    clear
+    git config --global user.name "Vedant Singh" 
+    git config --global user.email vedantsingh650@gmail.com
+    git status
+    ls
+    git status
+    git add *
+    git status
+    git ls-files -s
+    git cat-file e69d -p
+    git cat-file e69d -t
+    git cat-file e69d -s
+    git status
+    git status
+    git restore firs.txt
+    git status
+    git commit -m "first empty file commit"
+     git cat-file d5e94 -p
+     git cat-file d5e94 -t
+     git cat-file d5e94 -s
+    clean
+    clean
+    clear
+    git status
+    git log
+    ls
+    nano file5.txt
+    nano file5.txt
+    nano file5.txt
+    git ls-files -s
+    git status
+    git status
+    git ls-files -s
+    git rm --cached file.txt 
+    git ls-files -s
+    git status
+    git add firs.txt 
+    rm file.txt 
+    rm file5.txt 
+    ls
+    git status
+    git ls-files -s
+    echo "se" >> firs.txt 
+    git ls-files -s
+    git status
+    git restore firs.txt
+    git status
+    echo "afesf" > seco.txt
+    git add seco.txt 
+    git status
+    git commit -m "third commit"
+    git status
+    git log
+    git status
+    git init
+    echo "Hello, Git" | git hash-object --stdin
+    echo Hello, Git | git hash-object --stdin
+    echo Hello, Git | git hash-object --stdin w
+    echo Hello, Git | git hash-object --stdin -w
+    echo Hello, Git | git hash-object --stdin -w
+    ls -ls
+    ls -la
+    cd .git/
+    ls
+    cd ..
+    b7aec520dec0a7516c18eb4c68b64ae1eb9b5a5e
+    git cat-file -p b7aec520dec0a7516c18eb4c68b64ae1eb9b5a5e
+    git cat-file -s b7aec520dec0a7516c18eb4c68b64ae1eb9b5a5e
+    git cat-file -t b7aec520dec0a7516c18eb4c68b64ae1eb9b5a5e
+    pwd
+    echo "Second file in git repository" > new.txt
+    ls 
+    cat new.txt 
+    git hash-object new.txt
+    git hash-object new.txt -w
+    9d85f911b64dff32d66d462086e8b13207efa4c5
+    9d85f911b64dff32d66d462086e8b13207efa4c5
+    git cat-file -p 9d85f911b64dff32d66d462086e8b13207efa4c5
+    git cat-file -s 9d85f911b64dff32d66d462086e8b13207efa4c5
+    git cat-file -t 9d85f911b64dff32d66d462086e8b13207efa4c5
+    rm new.txt 
+    git cat-file -t 9d85f911b64dff32d66d462086e8b13207efa4c5
+    git cat-file -p 9d85f911b64dff32d66d462086e8b13207efa4c5
+    ls
+    ls -la
+    git cat-file -s 9d85f911b64dff32d66d462086e8b13207efa4c5
+    Second file in git repository
+    Second file in git repository
+    echo -e "blob 30\0Second file in git repository"
+    echo -e "blob 30\0Second file in git repository" | shasum
+    git cat-file -p 9d85f911b64dff32d66d462086e8b13207efa4c5
+    Second file in git repository shasum
+    shasum Second file in git repository
+    Second file in git repository | shasum
+    find .git/objects -type f
+    cd ..
+    nano tem.txt
+    cd git\ learning/
+    pwd
+    cd ..
+    pwd
+    cd git l
+    cd git\ learning/
+    mktree ../tgit.txt 
+    git-mktree ../tgit.txt 
+    ls-tree
+    cat ../tgit.txt 
+    cat ../tgit.txt 
+    cat ../tgit.txt | mktree
+    cat ../tgit.txt | git mktree
+    cat ../tgit.txt | git mktree
+    git cat-file -t 9d85f911b64dff32d66d462086e8b13207efa4c5
+    cat ../tgit.txt | git mktree
+    echo "hello world" | git hash-object --stdin -w
+    echo "hello vedant singh" | git hash-object --stdin -w
+    cat ../tgit.txt | git mktree
+    cat ../tgit.txt | git mktree
+    git cat-file -t 5b6f5f238365a135d84815dcf754f0cd5664de47
+    git cat-file -p 5b6f5f238365a135d84815dcf754f0cd5664de47
+    git read-tree 5b6f
+    pwd
+    git read-tree 5b6f
+    cd ..
+    nano t2.txt
+    nano t2.txt
+    cat t2.txt 
+    cat tgit.txt 
+    nano tgit.txt 
+    cat tgit.txt 
+    cat ../tgit.txt | git mktree
+    cd git\ learning/
+    cat ../tgit.txt | git mktree
+    git read-tree 5b6f
+    cat ../tgit.txt
+    nano ../tgit.txt
+    cat ../tgit.txt | git mktree
+    pwd
+    git ls-files -s
+    git read-tree a78d
+    git ls-files -s
+    git ls-files
+    git cat-file a78d -p
+    git cat-file e9a1 -p
+    git ls-files -s
+    ls
+    git checkout-index -a
+    ls
+    cat file.txt 
+    git cat-file -p 3804
+    git initn
+    git init
+    echo "vedans " > file.txt
+    ls
+    git status
+    git add *
+    git status
+    git commit file.txt -m "new tesxr"
+    git status
+    git cat-file -t 1a2e
+    find .git/objects/ type -f
+    find .git/objects/ type -t
+    find .git/objects/ -type f
+    git cat-file -t a7e9
+    git cat-file -t 1a2ea78d
+    git cat-file -t 1a2e
+    git cat-file -t a78d
+    git cat-file -t e9a15
+    git cat-file -t 0770
+    git cat-file -p 1a2e
+    git cat-file -p a78d
+    git cat-file -p e9a1
+    ls
+    cd ..
+    cd ..
+    ls
+    cat file.txt 
+    echo "singh" >> file.txt 
+    git status
+    git commit -m "second commit"
+    git add file.txt 
+    git commit -m "second commit"
+    git cat-file -p 0770
+    git cat-file -p 268a
+    git cat-file -p d0bc
+    git status
+    git log
+    git checkout 1a2e
+    ls
+    cat file.txt 
+    git checkout master
+    cat file.txt 
+    ls
+    echo "second file to untrack" > seco.txt
+    git status
+    git --help
+    git add seco.txt 
+    git status 
+    git restore --staged
+    git restore --staged seco.txt
+    git status 
+    git add seco.txt 
+    git rm seco.txt 
+    git rm seco.txt -f
+    git status 
+    ls
+    git log
+    git cat-file -p aa41
+    git cat-file -t aa41
+    git ls-files -s
+    git checkout aa41
+    git cat-file -p aa41
+    git cat-file -p aa41 > retrieve.txt
+    ls
+    cat retrieve.txt 
+    git status
+    git log
+    git cat-file -p 0770
+    git cat-file -p 1a2e
+    git cat-file -p a78d
+    git status us
+    git status 
+    git status
+    pwd
+    clear
+    cd ..
+    cd ..
+    pwd
+    git status
+    git add secon.txt 
+    git status
+    echo "third update" >> secon.txt 
+    git status
+    git commit -m "first commit"
+    git status
+    git add secon.txt 
+    git status
+    ls -tree
+    ls -i 
+    ls -k 
+    ls -l
+    ls -R
+    ls -r
+    ls
+    ls -S
+    ls -s
+    ls -X
+    ls -u
+    ls -Q
+    ls -p
+    ls -h
+    ls first.txt -h
+    ls -D
+    ls -c
+    ls -C
+    ls -b
+    cleaer
+    clear
+    history
+    history > gitcommand.txt
+    git status
+    pwwd
+    pwd
+    git commit -m "second commit"
+    git cat-file aaa5
+    git cat-file aaa5 -p
+    git cat-file aaa5 -p
+    git cat-file 5bae -p
+    ls
+    git cat-file 5bae -p
+    git init
+    echo "first file" > first.txt
+    git status
+    git add first.txt 
+    git cat-file 303f
+    git cat-file 303f
+    git cat-file 303f -t
+    git status
+    git cat-file 303f -p
+    git ls-files
+    echo "second file" > secon.txt
+    git status
+    git ls-files
+    git add secon.txt 
+    echo "updarer " >> secon.txt 
+    git sta
+    git stagit gitggghyhjkkjhgfdsoiuytresedrftghjkjjhhfdgrdesggggg
+    ls --help
+    cleaer
+    clear
+    git log
+    git log
+    git cat-file 08ca -p
+    git cat-file f17b -p
+    git init
+    echo "first" > first.txt
+    git add *
+    git status
+    git commit -m "first commit"
+    echo "first" > first1.txt
+    git status
+    git add first1.txt 
+    git ls-files -s
+    git status
+    git commit -m "same data commit"
+    git cat-file -p fab5
+    git cat-file -p 6381
+    git log
+     git cat-file -p 6381
+    cd ..
+    cd ..
+    git cat-file -p 5a5e
+    git cat-file -p 59b0
+    git clone https://github.com/leachim6/hello-world.git
+    cd hello-world/
+    ls -la
+    cd .git/
+    ls
+    cat HEAD 
+    cat index 
+    git init
+    echo "first file" > first.txt
+    echo "Second file" > second.txt
+    git status
+    git add *
+    git commit -m "first commit 2 files"
+    echo "third file" > third.txt
+    git add third.txt 
+    git commit -m "third commit 1 file added"
+    git cat-file -p 94b8
+    git cat-file -p ccf6
+    git log
+    git ls-files -s
+    cd .git/refs/heads/
+    ls
+    cat master 
+    pwd
+    cd ..
+    cat heads/
+    pwd
+    cd ..
+    cat HEAD 
+    pwd
+    cd ..
+    pwd
+    pwd
+    ls .git/refs/heads/
+    cat temp
+    cat .git/refs/heads/temp 
+    cat .git/refs/heads/master 
+    git checkout temp 
+    cat .git/HEAD 
+    git log
+    git checkout master 
+    git branch -m temp BR-1
+    git checkout BR-1 
+    ls
+    echo "third file" > BR1file.txt
+    git add *
+    git status
+    git commit -m "first commit by BR1 third.txt file copy"
+    it log
+    git log
+    git cat-file -p af5610
+    git cat-file -p 5c728c6
+    git cat-file -p 94b8dc4e3
+    git cat-file -p  ccf68e97
+    git log
+    git branch
+    cat .git/HEAD 
+    cat refs/heads/master
+    ls refs/heads/master
+    cat refs/heads/master
+    cat .git/refs/heads/master
+    git log
+    cd .git
+    cat pack-241cc64aa022ed4e8549bc80de344315f370c488.pack | git unpack-objects
+    cat pack-241cc64aa022ed4e8549bc80de344315f370c488.pack | git unpack-objects
+    cd objects/
+    ls
+    cd 14/
+    ls
+    git cat-file -p 0d054ec
+    git cat-file -p 2047d09ab
+    git cat-file -p 142047d09ab
+    git cat-file -p 16a5d8f
+    git cat-file -p  6aaf8ce5b2
+    git cat-file -p  42e92616f
+    git cat-file -p  3ced34f10
+    pwd
+    cd ../..
+    pwd
+    cd ..
+    git brach -b new-feature
+    git brach -b "new-feature"
+    git brach "new-feature"
+    git branch -b "new-feature"
+    git checkout -b "new-feature"
+    ls
+    git branches
+    git branche
+    git branch
+    nano readme.md 
+    cd a/
+    ls
+    rm -f awk.awk 
+    ls
+    git status
+    cd ..
+    git add *
+    git commit -m "awk.awk deleted from a   and readme modified"
+    git log
+    git diff
+    git status
+    git diff
+    git cat-file -p 5fae6b5
+    git cat-file -p 1dd7db6
+    git commit -m "update_list.py is modified" -a
+    git log
+    git log
+    clear
+    git log
+    git log
+    git log
+    git log
+    git log
+    git branch
+    git checkout revert-804-master 
+    git log
+    clear
+    git log
+    git checkout new-feature 
+    git log
+    pwd
+    git clone https://github.com/vedantsingh650/git-tags.git
+    cd git-tags/
+    ls
+    ls -a
+    git tag
+    git tag v1.0.0
+    git tag
+    git show v1.0.0 
+    git ls-files -s
+    echo "eloo git tag" > fd.txt
+    git add .
+    git commit -m "new commit at after tag"
+    git lg
+    git log
+    git lg
+    git lg
+    ls .git/refs/tags/
+    cat .git/refs/tags/v1.0.0 
+    git log
+    git tag -v v1.0.0 
+    git push -v 
+    git log
+    git tag -a v2.1.1 -m "annotaded tag"
+    git tag
+    git tag -v v2.1.1 
+    git log
+    cat .git/refs/tags/v2.1.1 
+    ls .git/objects/38
+    git cat-file -t 38f
+    git cat-file -t 380f
+    git cat-file -p 380f
+    git cat-file -p 6ad3
+    git cat-file -t  6ad3b795a5e7c2e
+    git tag v2.1.1
+    git tag
+    git log
+    git push -v
+    git push -v --tags
+    git fetch
+    git fetch  -v
+    git log
+    git fetch  -v
+    git log
+    git pull
+    git log
+    git fetch  -v
+    git log
+    git pull
+    git log
+    git checkout v2.1.1 v2.1.1
+    git checkout v2.1.1
+    ls
+    git log
+    git tag
+    git checkout main 
+    git log
+    git log graph
+    git log -graph
+    git log --graph
+    history > ../git\ pdf/gitcommand.txt 
+    git cat-file -s 9d85f911b64dff32d66d462086e8b13207efa4c5
+    Second file in git repository
+    Second file in git repository
+    echo -e "blob 30\0Second file in git repository"
+    echo -e "blob 30\0Second file in git repository" | shasum
+    git cat-file -p 9d85f911b64dff32d66d462086e8b13207efa4c5
+    Second file in git repository shasum
+    shasum Second file in git repository
+    Second file in git repository | shasum
+    find .git/objects -type f
+    cd ..
+    nano tem.txt
+    cd git\ learning/
+    pwd
+    cd ..
+    pwd
+    cd git l
+    cd git\ learning/
+    mktree ../tgit.txt 
+    git-mktree ../tgit.txt 
+    ls-tree
+    cat ../tgit.txt 
+    cat ../tgit.txt 
+    cat ../tgit.txt | mktree
+    cat ../tgit.txt | git mktree
+    cat ../tgit.txt | git mktree
+    git cat-file -t 9d85f911b64dff32d66d462086e8b13207efa4c5
+    cat ../tgit.txt | git mktree
+    echo "hello world" | git hash-object --stdin -w
+    echo "hello vedant singh" | git hash-object --stdin -w
+    cat ../tgit.txt | git mktree
+    cat ../tgit.txt | git mktree
+    git cat-file -t 5b6f5f238365a135d84815dcf754f0cd5664de47
+    git cat-file -p 5b6f5f238365a135d84815dcf754f0cd5664de47
+    git read-tree 5b6f
+    pwd
+    git read-tree 5b6f
+    cd ..
+    nano t2.txt
+    nano t2.txt
+    cat t2.txt 
+    cat tgit.txt 
+    nano tgit.txt 
+    cat tgit.txt 
+    cat ../tgit.txt | git mktree
+    cd git\ learning/
+    cat ../tgit.txt | git mktree
+    git read-tree 5b6f
+    cat ../tgit.txt
+    nano ../tgit.txt
+    cat ../tgit.txt | git mktree
+    pwd
+    git ls-files -s
+    git read-tree a78d
+    git ls-files -s
+    git ls-files
+    git cat-file a78d -p
+    git cat-file e9a1 -p
+    git ls-files -s
+    ls
+    git checkout-index -a
+    ls
+    cat file.txt 
+    git cat-file -p 3804
+    git initn
+    git init
+    echo "vedans " > file.txt
+    ls
+    git status
+    git add *
+    git status
+    git commit file.txt -m "new tesxr"
+    git status
+    git cat-file -t 1a2e
+    find .git/objects/ type -f
+    find .git/objects/ type -t
+    find .git/objects/ -type f
+    git cat-file -t a7e9
+    git cat-file -t 1a2ea78d
+    git cat-file -t 1a2e
+    git cat-file -t a78d
+    git cat-file -t e9a15
+    git cat-file -t 0770
+    git cat-file -p 1a2e
+    git cat-file -p a78d
+    git cat-file -p e9a1
+    ls
+    cd ..
+    cd ..
+    ls
+    cat file.txt 
+    echo "singh" >> file.txt 
+    git status
+    git commit -m "second commit"
+    git add file.txt 
+    git commit -m "second commit"
+    git cat-file -p 0770
+    git cat-file -p 268a
+    git cat-file -p d0bc
+    git status
+    git log
+    git checkout 1a2e
+    ls
+    cat file.txt 
+    git checkout master
+    cat file.txt 
+    ls
+    echo "second file to untrack" > seco.txt
+    git status
+    git --help
+    git add seco.txt 
+    git status 
+    git restore --staged
+    git restore --staged seco.txt
+    git status 
+    git add seco.txt 
+    git rm seco.txt 
+    git rm seco.txt -f
+    git status 
+    ls
+    git log
+    git cat-file -p aa41
+    git cat-file -t aa41
+    git ls-files -s
+    git checkout aa41
+    git cat-file -p aa41
+    git cat-file -p aa41 > retrieve.txt
+    ls
+    cat retrieve.txt 
+    git status
+    git log
+    git cat-file -p 0770
+    git cat-file -p 1a2e
+    git cat-file -p a78d
+    git status us
+    git status 
+    git status
+    pwd
+    clear
+    cd ..
+    cd ..
+    pwd
+    git status
+    git add secon.txt 
+    git status
+    echo "third update" >> secon.txt 
+    git status
+    git commit -m "first commit"
+    git status
+    git add secon.txt 
+    git status
+    ls -tree
+    ls -i 
+    ls -k 
+    ls -l
+    ls -R
+    ls -r
+    ls
+    ls -S
+    ls -s
+    ls -X
+    ls -u
+    ls -Q
+    ls -p
+    ls -h
+    ls first.txt -h
+    ls -D
+    ls -c
+    ls -C
+    ls -b
+    cleaer
+    clear
+    history
+    history > gitcommand.txt
+    git status
+    pwwd
+    pwd
+    git commit -m "second commit"
+    git cat-file aaa5
+    git cat-file aaa5 -p
+    git cat-file aaa5 -p
+    git cat-file 5bae -p
+    ls
+    git cat-file 5bae -p
+    git init
+    echo "first file" > first.txt
+    git status
+    git add first.txt 
+    git cat-file 303f
+    git cat-file 303f
+    git cat-file 303f -t
+    git status
+    git cat-file 303f -p
+    git ls-files
+    echo "second file" > secon.txt
+    git status
+    git ls-files
+    git add secon.txt 
+    echo "updarer " >> secon.txt 
+    git sta
+    git stagit gitggghyhjkkjhgfdsoiuytresedrftghjkjjhhfdgrdesggggg
+    ls --help
+    cleaer
+    clear
+    git log
+    git log
+    git cat-file 08ca -p
+    git cat-file f17b -p
+    git init
+    echo "first" > first.txt
+    git add *
+    git status
+    git commit -m "first commit"
+    echo "first" > first1.txt
+    git status
+    git add first1.txt 
+    git ls-files -s
+    git status
+    git commit -m "same data commit"
+    git cat-file -p fab5
+    git cat-file -p 6381
+    git log
+     git cat-file -p 6381
+    cd ..
+    cd ..
+    git cat-file -p 5a5e
+    git cat-file -p 59b0
+    git clone https://github.com/leachim6/hello-world.git
+    cd hello-world/
+    ls -la
+    cd .git/
+    ls
+    cat HEAD 
+    cat index 
+    git init
+    echo "first file" > first.txt
+    echo "Second file" > second.txt
+    git status
+    git add *
+    git commit -m "first commit 2 files"
+    echo "third file" > third.txt
+    git add third.txt 
+    git commit -m "third commit 1 file added"
+    git cat-file -p 94b8
+    git cat-file -p ccf6
+    git log
+    git ls-files -s
+    cd .git/refs/heads/
+    ls
+    cat master 
+    pwd
+    cd ..
+    cat heads/
+    pwd
+    cd ..
+    cat HEAD 
+    pwd
+    cd ..
+    pwd
+    pwd
+    ls .git/refs/heads/
+    cat temp
+    cat .git/refs/heads/temp 
+    cat .git/refs/heads/master 
+    git checkout temp 
+    cat .git/HEAD 
+    git log
+    git checkout master 
+    git branch -m temp BR-1
+    git checkout BR-1 
+    ls
+    echo "third file" > BR1file.txt
+    git add *
+    git status
+    git commit -m "first commit by BR1 third.txt file copy"
+    it log
+    git log
+    git cat-file -p af5610
+    git cat-file -p 5c728c6
+    git cat-file -p 94b8dc4e3
+    git cat-file -p  ccf68e97
+    git log
+    git branch
+    cat .git/HEAD 
+    cat refs/heads/master
+    ls refs/heads/master
+    cat refs/heads/master
+    cat .git/refs/heads/master
+    git log
+    cd .git
+    cat pack-241cc64aa022ed4e8549bc80de344315f370c488.pack | git unpack-objects
+    cat pack-241cc64aa022ed4e8549bc80de344315f370c488.pack | git unpack-objects
+    cd objects/
+    ls
+    cd 14/
+    ls
+    git cat-file -p 0d054ec
+    git cat-file -p 2047d09ab
+    git cat-file -p 142047d09ab
+    git cat-file -p 16a5d8f
+    git cat-file -p  6aaf8ce5b2
+    git cat-file -p  42e92616f
+    git cat-file -p  3ced34f10
+    pwd
+    cd ../..
+    pwd
+    cd ..
+    git brach -b new-feature
+    git brach -b "new-feature"
+    git brach "new-feature"
+    git branch -b "new-feature"
+    git checkout -b "new-feature"
+    ls
+    git branches
+    git branche
+    git branch
+    nano readme.md 
+    cd a/
+    ls
+    rm -f awk.awk 
+    ls
+    git status
+    cd ..
+    git add *
+    git commit -m "awk.awk deleted from a   and readme modified"
+    git log
+    git diff
+    git status
+    git diff
+    git cat-file -p 5fae6b5
+    git cat-file -p 1dd7db6
+    git commit -m "update_list.py is modified" -a
+    git log
+    git log
+    clear
+    git log
+    git log
+    git log
+    git log
+    git log
+    git branch
+    git checkout revert-804-master 
+    git log
+    clear
+    git log
+    git checkout new-feature 
+    git log
+    git log
+    git branch 
+    git checkout -b BR-2
+    LS
+    echo "new file folder by br-2" > ned.txt
+    git status
+    git log
+    git add *
+    git commit -m "ned.txt updated "
+    git checkout master 
+    git log
+    git checkout BR-2 
+    git checkout master 
+    git checkout master 
+    git checkout master 
+    git merge BR-2  
+    ls
+    git log
+    git cat-files -p d7a8ffe4
+    git cat-file -p d7a8ffe4
+    git cat-file -p  1492dbbd9722e9
+    git cat-file -p  d80fda6ea897d
+    git log
+    git log
+    git checkout master 
+    git log
+    git branch -d BR-2 
+    git log
+    git branch
+    git branch
+    git log
+    git cat-file -p  d7a8ffe4d
+    git branch BR-3
+    git checkout BR-3 
+    ls
+    echo "file created by BR3 a" > Br3fil.txt
+    git add *
+    git commit -m "Br3fil.txt added by Br-3 branch"
+    ls
+    git log
+    git checkout master 
+    git log
+    git merge BR-3  
+    git status
+    git ls-files -s
+  * 
+    git ls-files -s
+    cd ..
+    cd learning-Git-hub/
+    git branch
+    git log
+    git remote
+    git remote -v
+    git branch -a
+    git branch -r
+    git branch -vv
+    git branch new
+    git checkout new
+    git branch
+    ls
+    git branch -d new 
+    git checkout main 
+    git branch -d new 
+    git branch
+    git checkout new
+    git branch -vv
+    ls
+    git checkout main 
+    git branch -d new 
+    git branch
+    git checkout new 
+    git remote show origin 
+    git branch -r
+     git fetch 
+    git branch -vv
+    git branch -v
+    git remote show origin
+    git remote show origin
+    git status
+    git status
+    git log
+    git push -v
+    git push -v
+    git status
+    git ls-files -s
+    git fetch
+    git status
+    git ls-files -s
+    git push -v
+    git pull
+    git status
+    git -a commit -m "conflict resolve for push"
+    git add *
+    git  commit -m "conflict resolve for push"
+    git log
+    git push -v
+    git log
+    cat .git/refs/remotes/origin/new
+    cat .git/refs/remotes/origin/main
+    ls .git/refs/remotes/origin/
+    git branch -r
+    git log
+    git status
+    git log
+    git branch -r
+    git branch -v
+    git branch -vvv
+    git branch -vvvvvvvvvvvvvv
+  * ls .git/refs/remotes/origin/
+    cat .git/refs/heads/main 
+    cat .git/refs/heads/new 
+    cat .git/refs/remotes/origin/new 
+    git branch
+    git -b checkout feature-2
+    git checkout -b feature-2
+    ls
+    git branch -vv
+     git log
+    git brach -a
+    git branch -a
+    git push -v
+     git push -u -v origin feature-2
+    git log
+    git branch -a
+    git branch -v
+    git log
+    git push
+    git push -v
+    git branch -vv
+    git branch -a
+    git fetch
+    git branch -a
+    git checkout temp 
+    git branch -a
+    git branch -vv
+    git branch -vv
+    git fetch -v
+    git branch -vv
+    git remote update origin 
+    git branch -vv
+    git remote update origin --prune 
+    git branch -vv
+    git log
+    git branch  -d temp 
+    git checkout feature-2 
+    git branch  -d temp 
+    git branch -vv
+    git show-ref
+    git show-ref main
+    git show-ref new
+    git show-ref feature-2
+    history >> ../git\ pdf/gitcommand.txt
+    git --rm cached <filename>   // deleteing from cache for ignoring file which is tracked
+   git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+ 
+  149  git read-tree 5b6f
+  150  cd ..
+  151  nano t2.txt
+  152  nano t2.txt
+  153  cat t2.txt 
+  154  cat tgit.txt 
+  155  nano tgit.txt 
+  156  cat tgit.txt 
+  157  cat ../tgit.txt | git mktree
+  158  cd git\ learning/
+  159  cat ../tgit.txt | git mktree
+  160  git read-tree 5b6f
+  161  cat ../tgit.txt
+  162  nano ../tgit.txt
+  163  cat ../tgit.txt | git mktree
+  164  pwd
+  165  git ls-files -s
+  166  git read-tree a78d
+  167  git ls-files -s
+  168  git ls-files
+  169  git cat-file a78d -p
+  170  git cat-file e9a1 -p
+  171  git ls-files -s
+  172  ls
+  173  git checkout-index -a
+  174  ls
+  175  cat file.txt 
+  176  git cat-file -p 3804
+  177  git initn
+  178  git init
+  179  echo "vedans " > file.txt
+  180  ls
+  181  git status
+  182  git add *
+  183  git status
+  184  git commit file.txt -m "new tesxr"
+  185  git status
+  186  git cat-file -t 1a2e
+  187  find .git/objects/ type -f
+  188  find .git/objects/ type -t
+  189  find .git/objects/ -type f
+  190  git cat-file -t a7e9
+  191  git cat-file -t 1a2ea78d
+  192  git cat-file -t 1a2e
+  193  git cat-file -t a78d
+  194  git cat-file -t e9a15
+  195  git cat-file -t 0770
+  196  git cat-file -p 1a2e
+  197  git cat-file -p a78d
+  198  git cat-file -p e9a1
+  199  ls
+  200  cd ..
+  201  cd ..
+  202  ls
+  203  cat file.txt 
+  204  echo "singh" >> file.txt 
+  205  git status
+  206  git commit -m "second commit"
+  207  git add file.txt 
+  208  git commit -m "second commit"
+  209  git cat-file -p 0770
+  210  git cat-file -p 268a
+  211  git cat-file -p d0bc
+  212  git status
+  213  git log
+  214  git checkout 1a2e
+  215  ls
+  216  cat file.txt 
+  217  git checkout master
+  218  cat file.txt 
+  219  ls
+  220  echo "second file to untrack" > seco.txt
+  221  git status
+  222  git --help
+  223  git add seco.txt 
+  224  git status 
+  225  git restore --staged
+  226  git restore --staged seco.txt
+  227  git status 
+  228  git add seco.txt 
+  229  git rm seco.txt 
+  230  git rm seco.txt -f
+  231  git status 
+  232  ls
+  233  git log
+  234  git cat-file -p aa41
+  235  git cat-file -t aa41
+  236  git ls-files -s
+  237  git checkout aa41
+  238  git cat-file -p aa41
+  239  git cat-file -p aa41 > retrieve.txt
+  240  ls
+  241  cat retrieve.txt 
+  242  git status
+  243  git log
+  244  git cat-file -p 0770
+  245  git cat-file -p 1a2e
+  246  git cat-file -p a78d
+  247  git status us
+  248  git status 
+  249  git status
+  250  pwd
+  251  clear
+  252  cd ..
+  253  cd ..
+  254  pwd
+  255  git status
+  256  git add secon.txt 
+  257  git status
+  258  echo "third update" >> secon.txt 
+  259  git status
+  260  git commit -m "first commit"
+  261  git status
+  262  git add secon.txt 
+  263  git status
+  264  ls -tree
+  265  ls -i 
+  266  ls -k 
+  267  ls -l
+  268  ls -R
+  269  ls -r
+  270  ls
+  271  ls -S
+  272  ls -s
+  273  ls -X
+  274  ls -u
+  275  ls -Q
+  276  ls -p
+  277  ls -h
+  278  ls first.txt -h
+  279  ls -D
+  280  ls -c
+  281  ls -C
+  282  ls -b
+  283  cleaer
+  284  clear
+  285  history
+  286  history > gitcommand.txt
+  287  git status
+  288  pwwd
+  289  pwd
+  290  git commit -m "second commit"
+  291  git cat-file aaa5
+  292  git cat-file aaa5 -p
+  293  git cat-file aaa5 -p
+  294  git cat-file 5bae -p
+  295  ls
+  296  git cat-file 5bae -p
+  297  git init
+  298  echo "first file" > first.txt
+  299  git status
+  300  git add first.txt 
+  301  git cat-file 303f
+  302  git cat-file 303f
+  303  git cat-file 303f -t
+  304  git status
+  305  git cat-file 303f -p
+  306  git ls-files
+  307  echo "second file" > secon.txt
+  308  git status
+  309  git ls-files
+  310  git add secon.txt 
+  311  echo "updarer " >> secon.txt 
+  312  git sta
+  313  git stagit gitggghyhjkkjhgfdsoiuytresedrftghjkjjhhfdgrdesggggg
+  314  ls --help
+  315  cleaer
+  316  clear
+  317  git log
+  318  git log
+  319  git cat-file 08ca -p
+  320  git cat-file f17b -p
+  321  git init
+  322  echo "first" > first.txt
+  323  git add *
+  324  git status
+  325  git commit -m "first commit"
+  326  echo "first" > first1.txt
+  327  git status
+  328  git add first1.txt 
+  329  git ls-files -s
+  330  git status
+  331  git commit -m "same data commit"
+  332  git cat-file -p fab5
+  333  git cat-file -p 6381
+  334  git log
+  335   git cat-file -p 6381
+  336  cd ..
+  337  cd ..
+  338  git cat-file -p 5a5e
+  339  git cat-file -p 59b0
+  340  git clone https://github.com/leachim6/hello-world.git
+  341  cd hello-world/
+  342  ls -la
+  343  cd .git/
+  344  ls
+  345  cat HEAD 
+  346  cat index 
+  347  git init
+  348  echo "first file" > first.txt
+  349  echo "Second file" > second.txt
+  350  git status
+  351  git add *
+  352  git commit -m "first commit 2 files"
+  353  echo "third file" > third.txt
+  354  git add third.txt 
+  355  git commit -m "third commit 1 file added"
+  356  git cat-file -p 94b8
+  357  git cat-file -p ccf6
+  358  git log
+  359  git ls-files -s
+  360  cd .git/refs/heads/
+  361  ls
+  362  cat master 
+  363  pwd
+  364  cd ..
+  365  cat heads/
+  366  pwd
+  367  cd ..
+  368  cat HEAD 
+  369  pwd
+  370  cd ..
+  371  pwd
+  372  pwd
+  373  ls .git/refs/heads/
+  374  cat temp
+  375  cat .git/refs/heads/temp 
+  376  cat .git/refs/heads/master 
+  377  git checkout temp 
+  378  cat .git/HEAD 
+  379  git log
+  380  git checkout master 
+  381  git branch -m temp BR-1
+  382  git checkout BR-1 
+  383  ls
+  384  echo "third file" > BR1file.txt
+  385  git add *
+  386  git status
+  387  git commit -m "first commit by BR1 third.txt file copy"
+  388  it log
+  389  git log
+  390  git cat-file -p af5610
+  391  git cat-file -p 5c728c6
+  392  git cat-file -p 94b8dc4e3
+  393  git cat-file -p  ccf68e97
+  394  git log
+  395  git branch
+  396  cat .git/HEAD 
+  397  cat refs/heads/master
+  398  ls refs/heads/master
+  399  cat refs/heads/master
+  400  cat .git/refs/heads/master
+  401  git log
+  402  cd .git
+  403  cat pack-241cc64aa022ed4e8549bc80de344315f370c488.pack | git unpack-objects
+  404  cat pack-241cc64aa022ed4e8549bc80de344315f370c488.pack | git unpack-objects
+  405  cd objects/
+  406  ls
+  407  cd 14/
+  408  ls
+  409  git cat-file -p 0d054ec
+  410  git cat-file -p 2047d09ab
+  411  git cat-file -p 142047d09ab
+  412  git cat-file -p 16a5d8f
+  413  git cat-file -p  6aaf8ce5b2
+  414  git cat-file -p  42e92616f
+  415  git cat-file -p  3ced34f10
+  416  pwd
+  417  cd ../..
+  418  pwd
+  419  cd ..
+  420  git brach -b new-feature
+  421  git brach -b "new-feature"
+  422  git brach "new-feature"
+  423  git branch -b "new-feature"
+  424  git checkout -b "new-feature"
+  425  ls
+  426  git branches
+  427  git branche
+  428  git branch
+  429  nano readme.md 
+  430  cd a/
+  431  ls
+  432  rm -f awk.awk 
+  433  ls
+  434  git status
+  435  cd ..
+  436  git add *
+  437  git commit -m "awk.awk deleted from a   and readme modified"
+  438  git log
+  439  git diff
+  440  git status
+  441  git diff
+  442  git cat-file -p 5fae6b5
+  443  git cat-file -p 1dd7db6
+  444  git commit -m "update_list.py is modified" -a
+  445  git log
+  446  git log
+  447  clear
+  448  git log
+  449  git log
+  450  git log
+  451  git log
+  452  git log
+  453  git branch
+  454  git checkout revert-804-master 
+  455  git log
+  456  clear
+  457  git log
+  458  git checkout new-feature 
+  459  git log
+  460  git log
+  461  git branch 
+  462  git checkout -b BR-2
+  463  LS
+  464  echo "new file folder by br-2" > ned.txt
+  465  git status
+  466  git log
+  467  git add *
+  468  git commit -m "ned.txt updated "
+  469  git checkout master 
+  470  git log
+  471  git checkout BR-2 
+  472  git checkout master 
+  473  git checkout master 
+  474  git checkout master 
+  475  git merge BR-2  
+  476  ls
+  477  git log
+  478  git cat-files -p d7a8ffe4
+  479  git cat-file -p d7a8ffe4
+  480  git cat-file -p  1492dbbd9722e9
+  481  git cat-file -p  d80fda6ea897d
+  482  git log
+  483  git log
+  484  git checkout master 
+  485  git log
+  486  git branch -d BR-2 
+  487  git log
+  488  git branch
+  489  git branch
+  490  git log
+  491  git cat-file -p  d7a8ffe4d
+  492  git branch BR-3
+  493  git checkout BR-3 
+  494  ls
+  495  echo "file created by BR3 a" > Br3fil.txt
+  496  git add *
+  497  git commit -m "Br3fil.txt added by Br-3 branch"
+  498  ls
+  499  git log
+  500  git checkout master 
+  501  git log
+  502  git merge BR-3  
+  503  git status
+  504  git ls-files -s
+  505* 
+  506  git ls-files -s
+  507  cd ..
+  508  cd learning-Git-hub/
+  509  git branch
+  510  git log
+  511  git remote
+  512  git remote -v
+  513  git branch -a
+  514  git branch -r
+  515  git branch -vv
+  516  git branch new
+  517  git checkout new
+  518  git branch
+  519  ls
+  520  git branch -d new 
+  521  git checkout main 
+  522  git branch -d new 
+  523  git branch
+  524  git checkout new
+  525  git branch -vv
+  526  ls
+  527  git checkout main 
+  528  git branch -d new 
+  529  git branch
+  530  git checkout new 
+  531  git remote show origin 
+  532  git branch -r
+  533   git fetch 
+  534  git branch -vv
+  535  git branch -v
+  536  git remote show origin
+  537  git remote show origin
+  538  git status
+  539  git status
+  540  git log
+  541  git push -v
+  542  git push -v
+  543  git status
+  544  git ls-files -s
+  545  git fetch
+  546  git status
+  547  git ls-files -s
+  548  git push -v
+  549  git pull
+  550  git status
+  551  git -a commit -m "conflict resolve for push"
+  552  git add *
+  553  git  commit -m "conflict resolve for push"
+  554  git log
+  555  git push -v
+  556  git log
+  557  cat .git/refs/remotes/origin/new
+  558  cat .git/refs/remotes/origin/main
+  559  ls .git/refs/remotes/origin/
+  560  git branch -r
+  561  git log
+  562  git status
+  563  git log
+  564  git branch -r
+  565  git branch -v
+  566  git branch -vvv
+  567  git branch -vvvvvvvvvvvvvv
+  568* ls .git/refs/remotes/origin/
+  569  cat .git/refs/heads/main 
+  570  cat .git/refs/heads/new 
+  571  cat .git/refs/remotes/origin/new 
+  572  git branch
+  573  git -b checkout feature-2
+  574  git checkout -b feature-2
+  575  ls
+  576  git branch -vv
+  577   git log
+  578  git brach -a
+  579  git branch -a
+  580  git push -v
+  581   git push -u -v origin feature-2
+  582  git log
+  583  git branch -a
+  584  git branch -v
+  585  git log
+  586  git push
+  587  git push -v
+  588  git branch -vv
+  589  git branch -a
+  590  git fetch
+  591  git branch -a
+  592  git checkout temp 
+  593  git branch -a
+  594  git branch -vv
+  595  git branch -vv
+  596  git fetch -v
+  597  git branch -vv
+  598  git remote update origin 
+  599  git branch -vv
+  600  git remote update origin --prune 
+  601  git branch -vv
+  602  git log
+  603  git branch  -d temp 
+  604  git checkout feature-2 
+  605  git branch  -d temp 
+  606  git branch -vv
+  607  git show-ref
+  608  git show-ref main
+  609  git show-ref new
+  610  git show-ref feature-2
+  611  history >> ../git\ pdf/gitcommand.txt
+  612  history >> ../git\ pdf/gitcommand.txt
+  613  git push
+  614  git push -v
+  615  cd ..
+  616  git clone https://github.com/adobe/adobe.github.com.git
+  617  cd adobe.github.com/
+  618  git branch
+  619  git log
+  620  git fetch
+  621  git fetch -v
+  622  git branch
+  623  git branch -a
+  624  git log --graph
+  625  git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+
+
+"
+  626  git lg
+  627  git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit"
+  628  git lg
+  629  git log --oneline
+  630  git log -p
+  631  git log -4
+  632  git log --stat
+  633  git shortlog -n
+  634  git shortlog -n -s
+  635  git shortlog -n -s -e
+  636  git log --author="tklubock"
+  637  git log --grep=" Replace master branch with"
+  638* git log --grep=" "
+  639  git log --grep="Replace master "
+  640  git log --grep="Replace master branch with"
+  641* git log --" --oneline
+  642  git log --grep="dev" --oneline
+  643  git log --merge
+  644  git log --merges --oneline
+  645  git log --merges --oneline
+  646  git log --no-merges --oneline
+  647  git gc
+  648  history >> ../git\ pdf/gitcommand.txt 
